@@ -1,0 +1,455 @@
+{
+    "format":  1,
+    "repo":  "kurv1d/eva2-modules",
+    "tag":  "modules-2026-11-21",
+    "modules":  [
+                    {
+                        "id":  "browser",
+                        "title":  "Браузер (розширення)",
+                        "category":  "браузер",
+                        "icon":  "browser",
+                        "description":  "Браузер: сервер для розширення Ейви (вкладки, відео, пошук, Gmail, Instagram Direct)",
+                        "version":  "1.0.0",
+                        "url":  "https://github.com/kurv1d/eva2-modules/releases/download/modules-2026-11-21/browser-1.0.0.zip",
+                        "sha256":  "34778d4eed71307e0b9a14188926079c518e39792ade58533ed1c34a594d9c66",
+                        "size":  1541,
+                        "requires":  {
+                                         "processes":  [
+
+                                                       ],
+                                         "paths":  [
+
+                                                   ],
+                                         "registry":  [
+
+                                                      ]
+                                     },
+                        "files":  [
+                                      "manifest.json",
+                                      "rules.json",
+                                      "schema/001.sql",
+                                      "scripts/README.txt"
+                                  ]
+                    },
+                    {
+                        "id":  "devtools",
+                        "title":  "Розробка (VS Code, Visual Studio, JetBrains)",
+                        "category":  "розробка",
+                        "icon":  "devtools",
+                        "description":  "VS Code, Cursor, VSCodium: «відкрий папку / файл», «створи файл main.py», «відкрий останній проєкт». Visual Studio 2017–2022+: «відкрий рішення X», «збери проєкт» (лише після «Ейва, так»). JetBrains (Rider, PyCharm, IntelliJ IDEA, WebStorm, CLion): «відкрий проєкт X у Rider». Шукає лише в Документах, на Робочому столі й у папках проєктів.",
+                        "version":  "1.0.0",
+                        "url":  "https://github.com/kurv1d/eva2-modules/releases/download/modules-2026-11-21/devtools-1.0.0.zip",
+                        "sha256":  "bc3b4c8f1ce1d4ab656316d03407d5921bf5de9faf89649c415b6d7fe875a9c0",
+                        "size":  2211,
+                        "requires":  {
+                                         "processes":  [
+                                                           "Code",
+                                                           "Cursor",
+                                                           "VSCodium",
+                                                           "devenv",
+                                                           "rider64",
+                                                           "pycharm64",
+                                                           "idea64",
+                                                           "webstorm64",
+                                                           "clion64"
+                                                       ],
+                                         "paths":  [
+                                                       "%LOCALAPPDATA%\\Programs\\Microsoft VS Code\\Code.exe",
+                                                       "%ProgramFiles%\\Microsoft VS Code\\Code.exe",
+                                                       "%LOCALAPPDATA%\\Programs\\cursor\\Cursor.exe",
+                                                       "%LOCALAPPDATA%\\Programs\\VSCodium\\VSCodium.exe",
+                                                       "%ProgramFiles%\\VSCodium\\VSCodium.exe",
+                                                       "%ProgramFiles(x86)%\\Microsoft Visual Studio\\Installer\\vswhere.exe",
+                                                       "%LOCALAPPDATA%\\JetBrains\\Toolbox",
+                                                       "%ProgramFiles%\\JetBrains"
+                                                   ],
+                                         "registry":  [
+
+                                                      ]
+                                     },
+                        "files":  [
+                                      "manifest.json",
+                                      "rules.json",
+                                      "schema/001.sql",
+                                      "scripts/README.txt"
+                                  ]
+                    },
+                    {
+                        "id":  "discord",
+                        "title":  "Discord",
+                        "category":  "повідомлення",
+                        "icon":  "discord",
+                        "description":  "Discord: переписки, групи, сервери (з папками), канали — скан екрана без мишки, відкриття, чернетки й надсилання з дозволом",
+                        "version":  "1.0.0",
+                        "url":  "https://github.com/kurv1d/eva2-modules/releases/download/modules-2026-11-21/discord-1.0.0.zip",
+                        "sha256":  "1b36521a72cf7100fb3230e8e6255f8144c9518ec749355f5c0d95b47da3a6a1",
+                        "size":  1911,
+                        "requires":  {
+                                         "processes":  [
+                                                           "discord",
+                                                           "discordptb",
+                                                           "discordcanary"
+                                                       ],
+                                         "paths":  [
+                                                       "%LOCALAPPDATA%\\Discord\\Update.exe",
+                                                       "%LOCALAPPDATA%\\DiscordPTB\\Update.exe",
+                                                       "%LOCALAPPDATA%\\DiscordCanary\\Update.exe"
+                                                   ],
+                                         "registry":  [
+                                                          "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Discord"
+                                                      ]
+                                     },
+                        "files":  [
+                                      "manifest.json",
+                                      "rules.json",
+                                      "schema/README.txt",
+                                      "scripts/README.txt"
+                                  ]
+                    },
+                    {
+                        "id":  "games",
+                        "title":  "Ігрові клієнти (FACEIT, Epic, Battle.net, EA, Ubisoft, Riot)",
+                        "category":  "ігри",
+                        "icon":  "games",
+                        "description":  "Ігрові клієнти: відкрити FACEIT (або його сайт), Epic Games, Battle.net, EA app, Ubisoft Connect, Riot Client; запустити гру Epic (Fortnite…), Valorant / League of Legends. Покупки — ніколи.",
+                        "version":  "1.0.0",
+                        "url":  "https://github.com/kurv1d/eva2-modules/releases/download/modules-2026-11-21/games-1.0.0.zip",
+                        "sha256":  "5dc961ed64b4698498ee088830151fb2931b487d18070ee89536e6bd0b1d5550",
+                        "size":  1912,
+                        "requires":  {
+                                         "processes":  [
+                                                           "faceit",
+                                                           "EpicGamesLauncher",
+                                                           "Battle.net",
+                                                           "EADesktop",
+                                                           "upc",
+                                                           "UbisoftConnect",
+                                                           "RiotClientServices"
+                                                       ],
+                                         "paths":  [
+                                                       "%LOCALAPPDATA%\\FACEIT\\FACEIT.exe",
+                                                       "%ProgramFiles(x86)%\\Epic Games\\Launcher\\Portal\\Binaries\\Win64\\EpicGamesLauncher.exe",
+                                                       "%ProgramFiles(x86)%\\Battle.net\\Battle.net Launcher.exe",
+                                                       "%ProgramFiles%\\Electronic Arts\\EA Desktop\\EA Desktop\\EADesktop.exe",
+                                                       "%ProgramFiles(x86)%\\Ubisoft\\Ubisoft Game Launcher\\UbisoftConnect.exe",
+                                                       "%ProgramFiles(x86)%\\Ubisoft\\Ubisoft Game Launcher\\upc.exe",
+                                                       "C:\\Riot Games\\Riot Client\\RiotClientServices.exe",
+                                                       "%ProgramData%\\Riot Games\\RiotClientInstalls.json"
+                                                   ],
+                                         "registry":  [
+
+                                                      ]
+                                     },
+                        "files":  [
+                                      "manifest.json",
+                                      "rules.json",
+                                      "schema/001.sql",
+                                      "scripts/README.txt"
+                                  ]
+                    },
+                    {
+                        "id":  "instagram",
+                        "title":  "Instagram",
+                        "category":  "повідомлення",
+                        "icon":  "instagram",
+                        "description":  "Instagram Direct у браузері (через розширення Ейви й ядро): лише назви розмов і їхні номери; НАЖИВО ЩЕ НЕ ПЕРЕВІРЕНО",
+                        "version":  "1.0.0",
+                        "url":  "https://github.com/kurv1d/eva2-modules/releases/download/modules-2026-11-21/instagram-1.0.0.zip",
+                        "sha256":  "5892e4ab7c391e270b5370739fd3576fcf238b014fc1c90a1fa1608095eef7f4",
+                        "size":  1649,
+                        "requires":  {
+                                         "processes":  [
+
+                                                       ],
+                                         "paths":  [
+
+                                                   ],
+                                         "registry":  [
+
+                                                      ]
+                                     },
+                        "files":  [
+                                      "manifest.json",
+                                      "rules.json",
+                                      "schema/README.txt",
+                                      "scripts/README.txt"
+                                  ]
+                    },
+                    {
+                        "id":  "meetings",
+                        "title":  "Зустрічі (Zoom, Teams, Google Meet)",
+                        "category":  "зв\u0027язок",
+                        "icon":  "meetings",
+                        "description":  "«Відкрий Zoom / Teams / Google Meet»; «приєднайся до зустрічі» за посиланням із чату Ейви або буфера обміну — лише zoom.us, teams.microsoft.com, teams.live.com, meet.google.com і лише після «Ейва, так» (вмикаються мікрофон і камера).",
+                        "version":  "1.0.0",
+                        "url":  "https://github.com/kurv1d/eva2-modules/releases/download/modules-2026-11-21/meetings-1.0.0.zip",
+                        "sha256":  "c3a707ad6b59279b0dd7d289b580812a64d0ff41c36e48e88bc4874b5082a1e9",
+                        "size":  1777,
+                        "requires":  {
+                                         "processes":  [
+                                                           "Zoom",
+                                                           "ms-teams",
+                                                           "Teams"
+                                                       ],
+                                         "paths":  [
+                                                       "%APPDATA%\\Zoom\\bin\\Zoom.exe",
+                                                       "%ProgramFiles%\\Zoom\\bin\\Zoom.exe",
+                                                       "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\ms-teams.exe",
+                                                       "%LOCALAPPDATA%\\Microsoft\\Teams\\current\\Teams.exe"
+                                                   ],
+                                         "registry":  [
+
+                                                      ]
+                                     },
+                        "files":  [
+                                      "manifest.json",
+                                      "rules.json",
+                                      "schema/001.sql",
+                                      "scripts/README.txt"
+                                  ]
+                    },
+                    {
+                        "id":  "notes",
+                        "title":  "Текст і нотатки",
+                        "category":  "файли",
+                        "icon":  "notes",
+                        "description":  "Звичайні текстові файли (.txt) у Документи\\Ейва: написати, дописати, прочитати вголос, відкрити в Блокноті, диктувати. Нотатки Obsidian (.md у сховищі): створити, дописати, відкрити в Obsidian.",
+                        "version":  "1.0.0",
+                        "url":  "https://github.com/kurv1d/eva2-modules/releases/download/modules-2026-11-21/notes-1.0.0.zip",
+                        "sha256":  "4588a9adcf3b8fa31ed60c2e5ea9bc7ca163d43076105ae9f41aa24a36d57af8",
+                        "size":  1574,
+                        "requires":  {
+                                         "processes":  [
+
+                                                       ],
+                                         "paths":  [
+
+                                                   ],
+                                         "registry":  [
+
+                                                      ]
+                                     },
+                        "files":  [
+                                      "manifest.json",
+                                      "rules.json",
+                                      "schema/001.sql",
+                                      "scripts/README.txt"
+                                  ]
+                    },
+                    {
+                        "id":  "office",
+                        "title":  "Офіс (Word, Excel, PowerPoint)",
+                        "category":  "офіс",
+                        "icon":  "office",
+                        "description":  "Документи Word, таблиці Excel і презентації PowerPoint у Документи\\Ейва: створити, диктувати текст, таблиці й клітинки, таблиця з даних із сортуванням, презентація, PDF. Є Microsoft Office — через нього; немає — файли .docx / .xlsx / .pptx без нього.",
+                        "version":  "1.0.0",
+                        "url":  "https://github.com/kurv1d/eva2-modules/releases/download/modules-2026-11-21/office-1.0.0.zip",
+                        "sha256":  "a8040b71d7d09d0580c5a6f6b8e104904bbcd7d146d6e6ae86462757ab4eb581",
+                        "size":  1721,
+                        "requires":  {
+                                         "processes":  [
+
+                                                       ],
+                                         "paths":  [
+
+                                                   ],
+                                         "registry":  [
+
+                                                      ]
+                                     },
+                        "files":  [
+                                      "manifest.json",
+                                      "rules.json",
+                                      "schema/001.sql",
+                                      "scripts/README.txt"
+                                  ]
+                    },
+                    {
+                        "id":  "remote",
+                        "title":  "Віддалений доступ (TeamViewer, AnyDesk, RustDesk, Chrome)",
+                        "category":  "зв\u0027язок",
+                        "icon":  "remote",
+                        "description":  "Лише відкриває TeamViewer, AnyDesk, RustDesk або сторінку «Віддалений робочий стіл Chrome». ID, паролі й коди доступу Ейва ніколи не читає, не озвучує, не пише й нікому не надсилає; «дай доступ» — ні.",
+                        "version":  "1.0.0",
+                        "url":  "https://github.com/kurv1d/eva2-modules/releases/download/modules-2026-11-21/remote-1.0.0.zip",
+                        "sha256":  "ced27fc87e82a69878360a9a04f8785b26c873be86cc342524a8f40227ff3f8e",
+                        "size":  1752,
+                        "requires":  {
+                                         "processes":  [
+                                                           "TeamViewer",
+                                                           "AnyDesk",
+                                                           "rustdesk"
+                                                       ],
+                                         "paths":  [
+                                                       "%ProgramFiles%\\TeamViewer\\TeamViewer.exe",
+                                                       "%ProgramFiles(x86)%\\TeamViewer\\TeamViewer.exe",
+                                                       "%ProgramFiles(x86)%\\AnyDesk\\AnyDesk.exe",
+                                                       "%ProgramFiles%\\AnyDesk\\AnyDesk.exe",
+                                                       "%ProgramFiles%\\RustDesk\\rustdesk.exe"
+                                                   ],
+                                         "registry":  [
+
+                                                      ]
+                                     },
+                        "files":  [
+                                      "manifest.json",
+                                      "rules.json",
+                                      "schema/001.sql",
+                                      "scripts/README.txt"
+                                  ]
+                    },
+                    {
+                        "id":  "spotify",
+                        "title":  "Spotify",
+                        "category":  "медіа",
+                        "icon":  "spotify",
+                        "description":  "Spotify: «увімкни на Spotify …» — пошук пісні / виконавця / плейлиста в програмі; пауза, далі, назад, гучність; «що грає». Без входу в акаунт і без покупок.",
+                        "version":  "1.0.0",
+                        "url":  "https://github.com/kurv1d/eva2-modules/releases/download/modules-2026-11-21/spotify-1.0.0.zip",
+                        "sha256":  "a9855facaa79bbedb1167181f9e9339626ae3899659681277fed2328368c11fd",
+                        "size":  1734,
+                        "requires":  {
+                                         "processes":  [
+                                                           "spotify"
+                                                       ],
+                                         "paths":  [
+                                                       "%APPDATA%\\Spotify\\Spotify.exe",
+                                                       "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Spotify.exe",
+                                                       "%LOCALAPPDATA%\\Packages\\SpotifyAB.SpotifyMusic_zpdnekdrzrea0"
+                                                   ],
+                                         "registry":  [
+                                                          "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Spotify",
+                                                          "HKCU\\Software\\Classes\\spotify"
+                                                      ]
+                                     },
+                        "files":  [
+                                      "manifest.json",
+                                      "rules.json",
+                                      "schema/001.sql",
+                                      "scripts/README.txt"
+                                  ]
+                    },
+                    {
+                        "id":  "steam",
+                        "title":  "Steam",
+                        "category":  "ігри",
+                        "icon":  "steam",
+                        "description":  "Steam: список встановлених ігор із файлів Steam (без вікон), «запусти CS2 / доту / …», відкрити бібліотеку, друзів, магазин. Покупки — ніколи.",
+                        "version":  "1.0.0",
+                        "url":  "https://github.com/kurv1d/eva2-modules/releases/download/modules-2026-11-21/steam-1.0.0.zip",
+                        "sha256":  "c85eba3d5b0802f37d767ba428c9aa9eb41a68c1b66cb97d69ae718b2b65819d",
+                        "size":  1666,
+                        "requires":  {
+                                         "processes":  [
+                                                           "steam"
+                                                       ],
+                                         "paths":  [
+                                                       "%ProgramFiles(x86)%\\Steam\\steam.exe",
+                                                       "%ProgramFiles%\\Steam\\steam.exe"
+                                                   ],
+                                         "registry":  [
+                                                          "HKCU\\Software\\Valve\\Steam"
+                                                      ]
+                                     },
+                        "files":  [
+                                      "manifest.json",
+                                      "rules.json",
+                                      "schema/001.sql",
+                                      "scripts/README.txt"
+                                  ]
+                    },
+                    {
+                        "id":  "teamspeak",
+                        "title":  "TeamSpeak",
+                        "category":  "зв\u0027язок",
+                        "icon":  "teamspeak",
+                        "description":  "TeamSpeak 3 і 5: «відкрий TeamSpeak», «підключись до сервера X» — лише сервери із закладок TeamSpeak 3 або списку в налаштуваннях модуля (іншу адресу — тільки після «Ейва, так»); «відключись від сервера», «вимкни мікрофон у TeamSpeak» — гарячими клавішами, якщо їх задано.",
+                        "version":  "1.0.0",
+                        "url":  "https://github.com/kurv1d/eva2-modules/releases/download/modules-2026-11-21/teamspeak-1.0.0.zip",
+                        "sha256":  "2edfe00e0b4a7e78119a3887c33e41307f8f45c864cdf66a9bc681ed1ce7119e",
+                        "size":  1762,
+                        "requires":  {
+                                         "processes":  [
+                                                           "ts3client_win64",
+                                                           "ts3client_win32",
+                                                           "TeamSpeak"
+                                                       ],
+                                         "paths":  [
+                                                       "%ProgramFiles%\\TeamSpeak 3 Client\\ts3client_win64.exe",
+                                                       "%LOCALAPPDATA%\\TeamSpeak 3 Client\\ts3client_win64.exe",
+                                                       "%ProgramFiles(x86)%\\TeamSpeak 3 Client\\ts3client_win32.exe",
+                                                       "%LOCALAPPDATA%\\Programs\\TeamSpeak\\TeamSpeak.exe",
+                                                       "%ProgramFiles%\\TeamSpeak\\TeamSpeak.exe"
+                                                   ],
+                                         "registry":  [
+
+                                                      ]
+                                     },
+                        "files":  [
+                                      "manifest.json",
+                                      "rules.json",
+                                      "schema/001.sql",
+                                      "scripts/README.txt"
+                                  ]
+                    },
+                    {
+                        "id":  "telegram",
+                        "title":  "Telegram",
+                        "category":  "повідомлення",
+                        "icon":  "telegram",
+                        "description":  "Telegram Desktop: список чатів з екрана (люди, групи, канали, боти), відкриття без мишки, чернетки й надсилання з дозволом",
+                        "version":  "1.0.0",
+                        "url":  "https://github.com/kurv1d/eva2-modules/releases/download/modules-2026-11-21/telegram-1.0.0.zip",
+                        "sha256":  "2c379aa69de8786eb252e18b6c18f02ddff479ae0e7beb905ea31531ad612a4a",
+                        "size":  2039,
+                        "requires":  {
+                                         "processes":  [
+                                                           "telegram"
+                                                       ],
+                                         "paths":  [
+                                                       "%APPDATA%\\Telegram Desktop\\Telegram.exe",
+                                                       "%LOCALAPPDATA%\\Packages\\TelegramMessengerLLP.TelegramDesktop_t4vj0pshhgkwm"
+                                                   ],
+                                         "registry":  [
+                                                          "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{53F49750-6209-4FBF-9CA8-7A333C87D1ED}_is1"
+                                                      ]
+                                     },
+                        "files":  [
+                                      "manifest.json",
+                                      "rules.json",
+                                      "schema/README.txt",
+                                      "scripts/README.txt"
+                                  ]
+                    },
+                    {
+                        "id":  "whatsapp",
+                        "title":  "WhatsApp",
+                        "category":  "повідомлення",
+                        "icon":  "whatsapp",
+                        "description":  "WhatsApp Desktop: назви чатів з лівої колонки, відкриття, чернетки й надсилання з дозволом (НАЖИВО ЩЕ НЕ ПЕРЕВІРЕНО — програма не встановлена)",
+                        "version":  "1.0.0",
+                        "url":  "https://github.com/kurv1d/eva2-modules/releases/download/modules-2026-11-21/whatsapp-1.0.0.zip",
+                        "sha256":  "3e2d8eab6b8cbc01ecbb70e765e89ea8f8c7bcbfce54a7604870cdf29514b411",
+                        "size":  1703,
+                        "requires":  {
+                                         "processes":  [
+                                                           "whatsapp",
+                                                           "whatsapp.root"
+                                                       ],
+                                         "paths":  [
+                                                       "%LOCALAPPDATA%\\Packages\\5319275A.WhatsAppDesktop_cv1g1gvanyjgm",
+                                                       "%LOCALAPPDATA%\\WhatsApp\\WhatsApp.exe"
+                                                   ],
+                                         "registry":  [
+
+                                                      ]
+                                     },
+                        "files":  [
+                                      "manifest.json",
+                                      "rules.json",
+                                      "schema/README.txt",
+                                      "scripts/README.txt"
+                                  ]
+                    }
+                ]
+}
